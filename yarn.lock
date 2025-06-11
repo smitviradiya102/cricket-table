@@ -2,6 +2,23 @@
 # yarn lockfile v1
 
 
+"@faker-js/faker@^9.8.0":
+  version "9.8.0"
+  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-9.8.0.tgz#3344284028d1c9dc98dee2479f82939310370d88"
+  integrity sha512-U9wpuSrJC93jZBxx/Qq2wPjCuYISBueyVUGK7qqdmj7r/nxaxwW8AQDCLeRO7wZnjj94sh3p246cAYjUKuqgfg==
+
+"@tanstack/query-core@5.80.6":
+  version "5.80.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.80.6.tgz#d2e54fa9eabebc953c675b74b17d6cd45a2a4cb4"
+  integrity sha512-nl7YxT/TAU+VTf+e2zTkObGTyY8YZBMnbgeA1ee66lIVqzKlYursAII6z5t0e6rXgwUMJSV4dshBTNacNpZHbQ==
+
+"@tanstack/react-query@^5.80.6":
+  version "5.80.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.80.6.tgz#9c77f05f3236b95693caaea155e5eaa4459f0197"
+  integrity sha512-izX+5CnkpON3NQGcEm3/d7LfFQNo9ZpFtX2QsINgCYK9LT2VCIdi8D3bMaMSNhrAJCznRoAkFic76uvLroALBw==
+  dependencies:
+    "@tanstack/query-core" "5.80.6"
+
 "@tanstack/react-table@^8.21.3":
   version "8.21.3"
   resolved "https://registry.yarnpkg.com/@tanstack/react-table/-/react-table-8.21.3.tgz#2c38c747a5731c1a07174fda764b9c2b1fb5e91b"
