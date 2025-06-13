@@ -1,76 +1,74 @@
-// // import { players } from '../data/playersData';
-// // import { calculateAge } from '../utils/ageCalculator';
+// import { players } from '../data/playersData';
+// import { calculateAge } from '../utils/ageCalculator';
 
-// // const Table = () => {
-// //   return (
-// //     <div className="max-w-7xl mx-auto p-6 bg-white shadow-lg rounded-lg">
-// //       <h2 className="text-3xl font-semibold mb-6 text-center text-gray-800">
-// //         International Cricketers
-// //       </h2>
-// //       <div className="overflow-auto">
-// //         <table className="min-w-full border-collapse border border-gray-300 text-sm">
-// //           {/* Main Header */}
-// //           <thead>
-// //             <tr className="bg-gradient-to-r from-teal-600 to-emerald-700 text-white">
-// //               <th rowSpan={2} className="border px-4 py-2 text-center">#</th>
-// //               <th rowSpan={2} className="border px-4 py-2 text-left">Name</th>
-// //               <th rowSpan={2} className="border px-4 py-2 text-center">Birthdate</th>
-// //               <th rowSpan={2} className="border px-4 py-2 text-center">Age</th>
-// //               <th colSpan={3} className="border px-4 py-2 text-center">Runs</th>
-// //               <th colSpan={3} className="border px-4 py-2 text-center">Matches</th>
-// //               <th rowSpan={2} className="border px-4 py-2 text-center">Role</th>
-// //               <th rowSpan={2} className="border px-4 py-2 text-left">Teams</th>
-// //             </tr>
-// //             {/* Sub Header for formats */}
-// //             <tr className="bg-gradient-to-r from-teal-500 to-emerald-600 text-white">
-// //               <th className="border px-2 py-1 text-center">T20</th>
-// //               <th className="border px-2 py-1 text-center">ODI</th>
-// //               <th className="border px-2 py-1 text-center">Test</th>
-// //               <th className="border px-2 py-1 text-center">T20</th>
-// //               <th className="border px-2 py-1 text-center">ODI</th>
-// //               <th className="border px-2 py-1 text-center">Test</th>
-// //             </tr>
-// //           </thead>
+// const Table = () => {
+//   return (
+//     <div className="max-w-7xl mx-auto p-6 bg-white shadow-lg rounded-lg">
+//       <h2 className="text-3xl font-semibold mb-6 text-center text-gray-800">
+//         International Cricketers
+//       </h2>
+//       <div className="overflow-auto">
+//         <table className="min-w-full border-collapse border border-gray-300 text-sm">
+//           {/* Main Header */}
+//           <thead>
+//             <tr className="bg-gradient-to-r from-teal-600 to-emerald-700 text-white">
+//               <th rowSpan={2} className="border px-4 py-2 text-center">#</th>
+//               <th rowSpan={2} className="border px-4 py-2 text-left">Name</th>
+//               <th rowSpan={2} className="border px-4 py-2 text-center">Birthdate</th>
+//               <th rowSpan={2} className="border px-4 py-2 text-center">Age</th>
+//               <th colSpan={3} className="border px-4 py-2 text-center">Runs</th>
+//               <th colSpan={3} className="border px-4 py-2 text-center">Matches</th>
+//               <th rowSpan={2} className="border px-4 py-2 text-center">Role</th>
+//               <th rowSpan={2} className="border px-4 py-2 text-left">Teams</th>
+//             </tr>
+//             {/* Sub Header for formats */}
+//             <tr className="bg-gradient-to-r from-teal-500 to-emerald-600 text-white">
+//               <th className="border px-2 py-1 text-center">T20</th>
+//               <th className="border px-2 py-1 text-center">ODI</th>
+//               <th className="border px-2 py-1 text-center">Test</th>
+//               <th className="border px-2 py-1 text-center">T20</th>
+//               <th className="border px-2 py-1 text-center">ODI</th>
+//               <th className="border px-2 py-1 text-center">Test</th>
+//             </tr>
+//           </thead>
 
-// //           <tbody>
-// //             {players.map((player, i) => {
-// //               const age = calculateAge(player.birthdate);
-// //               return (
-// //                 <tr
-// //                   key={i}
-// //                   className={`${
-// //                     i % 2 === 0 ? 'bg-gray-50' : 'bg-white'
-// //                   } hover:bg-emerald-100 transition-colors duration-200`}
-// //                 >
-// //                   <td className="border px-4 py-2 text-center">{i + 1}</td>
-// //                   <td className="border px-4 py-2 font-medium text-gray-900">{player.name}</td>
-// //                   <td className="border px-4 py-2 text-center">{player.birthdate}</td>
-// //                   <td className="border px-4 py-2 text-center">{age}</td>
+//           <tbody>
+//             {players.map((player, i) => {
+//               const age = calculateAge(player.birthdate);
+//               return (
+//                 <tr
+//                   key={i}
+//                   className={`${
+//                     i % 2 === 0 ? 'bg-gray-50' : 'bg-white'
+//                   } hover:bg-emerald-100 transition-colors duration-200`}
+//                 >
+//                   <td className="border px-4 py-2 text-center">{i + 1}</td>
+//                   <td className="border px-4 py-2 font-medium text-gray-900">{player.name}</td>
+//                   <td className="border px-4 py-2 text-center">{player.birthdate}</td>
+//                   <td className="border px-4 py-2 text-center">{age}</td>
 
-// //                   {/* Runs */}
-// //                   <td className="border px-2 py-2 text-center">{player.runs.T20.toLocaleString()}</td>
-// //                   <td className="border px-2 py-2 text-center">{player.runs.ODI.toLocaleString()}</td>
-// //                   <td className="border px-2 py-2 text-center">{player.runs.Test.toLocaleString()}</td>
+//                   {/* Runs */}
+//                   <td className="border px-2 py-2 text-center">{player.runs.T20.toLocaleString()}</td>
+//                   <td className="border px-2 py-2 text-center">{player.runs.ODI.toLocaleString()}</td>
+//                   <td className="border px-2 py-2 text-center">{player.runs.Test.toLocaleString()}</td>
 
-// //                   {/* Matches */}
-// //                   <td className="border px-2 py-2 text-center">{player.matches.T20}</td>
-// //                   <td className="border px-2 py-2 text-center">{player.matches.ODI}</td>
-// //                   <td className="border px-2 py-2 text-center">{player.matches.Test}</td>
+//                   {/* Matches */}
+//                   <td className="border px-2 py-2 text-center">{player.matches.T20}</td>
+//                   <td className="border px-2 py-2 text-center">{player.matches.ODI}</td>
+//                   <td className="border px-2 py-2 text-center">{player.matches.Test}</td>
 
-// //                   <td className="border px-4 py-2 text-center">{player.role}</td>
-// //                   <td className="border px-4 py-2 text-left">{player.teams.join(', ')}</td>
-// //                 </tr>
-// //               );
-// //             })}
-// //           </tbody>
-// //         </table>
-// //       </div>
-// //     </div>
-// //   );
-// // };
-
-// // export default Table;
-
+//                   <td className="border px-4 py-2 text-center">{player.role}</td>
+//                   <td className="border px-4 py-2 text-left">{player.teams.join(', ')}</td>
+//                 </tr>
+//               );
+//             })}
+//           </tbody>
+//         </table>
+//       </div>
+//     </div>
+//   );
+// };
+// export default Table;
 
 import {
   useReactTable,
@@ -78,25 +76,28 @@ import {
   getSortedRowModel,
   getFilteredRowModel,
   getPaginationRowModel,
+  getGroupedRowModel,
   flexRender,
   createColumnHelper,
 } from '@tanstack/react-table';
 import { useState, useMemo } from 'react';
-import { players, playerExtras } from '../data/playersData';
+import { players, playerExtras } from '../data/playersData';  
 import { calculateAge } from '../utils/ageCalculator';
-import type { SortingState, ColumnFiltersState } from '@tanstack/react-table';
+import type { SortingState, ColumnFiltersState, GroupingState } from '@tanstack/react-table';
 
 const columnHelper = createColumnHelper<typeof players[0]>();
 
 const Table = () => {
   const [globalFilter, setGlobalFilter] = useState('');
   const [sorting, setSorting] = useState<SortingState>([]);
-  const [pagination, setPagination] = useState({ pageIndex: 0, pageSize: 5 });
+  const [pagination, setPagination] = useState({ pageIndex: 0, pageSize: 10 });
   const [expandedRow, setExpandedRow] = useState<{
     id: string | null;
     details: { birthPlace: string; interview: string } | null;
   }>({ id: null, details: null });
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([]);
+  const [grouping, setGrouping] = useState<GroupingState>([]);
+  const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({});
 
   const data = useMemo(() => players, []);
 
@@ -131,7 +132,13 @@ const Table = () => {
     }
   };
 
-  // Helper function to create header with min/max inputs using TanStack Table's column filters
+  const toggleGroup = (groupId: string) => {
+    setExpandedGroups((prev) => ({
+      ...prev,
+      [groupId]: !prev[groupId],
+    }));
+  };
+
   const createHeaderWithFilters = (column: any, label: string) => {
     const filterValue = (column.getFilterValue() as { min: number | ''; max: number | '' }) || { min: '', max: '' };
 
@@ -178,7 +185,6 @@ const Table = () => {
     );
   };
 
-  // Filter function for min/max ranges
   const rangeFilterFn = (
     row: any,
     columnId: string,
@@ -195,16 +201,33 @@ const Table = () => {
     return value >= (min as number) && value <= (max as number);
   };
 
+  const getLanguage = (teams: string[]): string => {
+    if (!teams || teams.length === 0) return 'Not available';
+    const team = teams[0];
+    const languageMap: { [key: string]: string } = {
+      India: 'Hindi',
+      Australia: 'English',
+      England: 'English',
+      Pakistan: 'Urdu',
+      'South Africa': 'English',
+      'New Zealand': 'English',
+      Bangladesh: 'Bengali',
+      'Sri Lanka': 'Sinhala',
+      Afghanistan: 'Pashto',
+    };
+    return languageMap[team] || 'Not available';
+  };
+
   const columns = useMemo(
     () => [
       columnHelper.display({
         id: 'index',
         header: '#',
-        cell: ({ row }) => row.index + 1,
+        cell: ({ row }) => (row.depth === 0 ? row.index + 1 : null),
       }),
       columnHelper.accessor('name', {
         header: 'Name',
-        cell: (info) => info.getValue(),
+        cell: (info) => <span className="truncate block max-w-[150px]">{info.getValue()}</span>,
       }),
       columnHelper.accessor('birthdate', {
         header: 'Birthdate',
@@ -258,15 +281,21 @@ const Table = () => {
       }),
       columnHelper.accessor('role', {
         header: 'Role',
-        cell: (info) => info.getValue(),
+        cell: (info) => <span className="truncate block max-w-[150px]">{info.getValue()}</span>,
       }),
       columnHelper.accessor((row) => row.teams.join(', '), {
         id: 'teams',
         header: 'Teams',
+        cell: (info) => <span className="truncate block max-w-[150px]">{info.getValue()}</span>,
         filterFn: (row, _columnId, filterValue) => {
           if (!filterValue || filterValue === 'All') return true;
           return row.original.teams.includes(filterValue);
         },
+      }),
+      columnHelper.display({
+        id: 'language',
+        header: 'Language',
+        cell: ({ row }) => getLanguage(row.original.teams),
       }),
     ],
     []
@@ -280,31 +309,27 @@ const Table = () => {
       sorting,
       pagination,
       columnFilters,
+      grouping,
     },
     onGlobalFilterChange: setGlobalFilter,
     onSortingChange: setSorting,
     onPaginationChange: setPagination,
     onColumnFiltersChange: setColumnFilters,
+    onGroupingChange: setGrouping,
     getCoreRowModel: getCoreRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getSortedRowModel: getSortedRowModel(),
     getPaginationRowModel: getPaginationRowModel(),
+    getGroupedRowModel: getGroupedRowModel(),
   });
 
   return (
     <div className="max-w-7xl mx-auto p-6 bg-white shadow-lg rounded-lg border border-gray-300">
-      <h2 className="text-3xl font-semibold mb-4 text-center bg-gradient-to-r from-teal-600 to-emerald-700 text-white py-2 rounded"> 
+      <h2 className="text-3xl font-semibold mb-4 text-center bg-gradient-to-r from-teal-600 to-emerald-700 text-white py-2 rounded">
         International Cricketers
       </h2>
 
-    <div className="mb-4 flex justify-between items-center gap-4 flex-wrap">
-        <input
-          type="text"
-          placeholder="Search by name..."
-          value={globalFilter ?? ''}
-          onChange={(e) => setGlobalFilter(e.target.value)}
-          className="border border-gray-300 rounded px-3 py-1 shadow-sm"
-        />
+      <div className="mb-4 flex justify-between items-center gap-4 flex-wrap">
         <select
           value={(columnFilters.find((f) => f.id === 'teams')?.value as string) || 'All'}
           onChange={(e) =>
@@ -315,7 +340,7 @@ const Table = () => {
                 : [...others, { id: 'teams', value: e.target.value }];
             })
           }
-          className="border border-gray-300 rounded px-3 py-1 shadow-sm ml-[600px]"
+          className="border border-gray-300 rounded px-3 py-1 shadow-sm"
         >
           {uniqueCountries.map((country) => (
             <option key={country} value={country}>
@@ -333,7 +358,7 @@ const Table = () => {
                 : [...others, { id: 'birthdate', value: e.target.value }];
             })
           }
-          className="border border-gray-300 rounded px-3 py-1 shadow-sm"
+          className="border border-gray-300 rounded px-3 py-1 shadow-sm mr-[450px]"
         >
           {uniqueYears.map((year) => (
             <option key={year} value={year}>
@@ -341,17 +366,35 @@ const Table = () => {
             </option>
           ))}
         </select>
+        <select
+          value={grouping[0] || 'none'}
+          onChange={(e) =>
+            setGrouping(e.target.value === 'none' ? [] : [e.target.value])
+          }
+          className="border border-gray-300 rounded px-3 py-1 shadow-sm"
+        >
+          <option value="none">Grouping</option>
+          <option value="teams">Group by Teams</option>
+          <option value="role">Group by Role</option>
+        </select>
+        <input
+          type="text"
+          placeholder="Search by name..."
+          value={globalFilter ?? ''}
+          onChange={(e) => setGlobalFilter(String(e.target.value))}
+          className="border border-gray-300 rounded px-3 py-1 shadow-sm"
+        />
       </div>
 
       <div className="overflow-auto">
-        <table className="min-w-full border-collapse border border-gray-300 text-sm">
+        <table className="min-w-full border-collapse border-t border-b border-gray-300 text-sm">
           <thead>
             <tr className="bg-gradient-to-r from-teal-600 to-emerald-700 text-white">
               {table.getHeaderGroups()[0].headers.slice(0, 4).map((header) => (
                 <th
                   key={header.id}
                   rowSpan={2}
-                  className="border px-4 py-2 text-center cursor-pointer select-none"
+                  className="border-x border-b border-gray-300 px-4 py-2 text-center cursor-pointer select-none"
                   onClick={header.column.getToggleSortingHandler()}
                 >
                   {flexRender(header.column.columnDef.header, header.getContext())}
@@ -362,55 +405,102 @@ const Table = () => {
                     : ''}
                 </th>
               ))}
-              <th colSpan={3} className="border px-4 py-2 text-center">
+              <th colSpan={3} className="border-x border-b border-gray-300 px-4 py-2 text-center">
                 Runs
               </th>
-              <th colSpan={3} className="border px-4 py-2 text-center">
+              <th colSpan={3} className="border-x border-b border-gray-300 px-4 py-2 text-center">
                 Matches
               </th>
-              <th rowSpan={2} className="border px-4 py-2 text-center">
+              <th rowSpan={2} className="border-x border-b border-gray-300 px-4 py-2 text-center">
                 Role
               </th>
-              <th rowSpan={2} className="border px-4 py-2 text-left">
+              <th rowSpan={2} className="border-x border-b border-gray-300 px-4 py-2 text-left">
                 Teams
+              </th>
+              <th rowSpan={2} className="border-x border-b border-gray-300 px-4 py-2 text-center">
+                Language
               </th>
             </tr>
             <tr className="bg-gradient-to-r from-teal-500 to-emerald-600 text-white">
               {table.getHeaderGroups()[0].headers.slice(4, 10).map((header) => (
-                <th key={header.id} className="border px-2 py-1 text-center">
+                <th key={header.id} className="border-x border-b border-gray-300 px-2 py-1 text-center">
                   {flexRender(header.column.columnDef.header, header.getContext())}
                 </th>
               ))}
             </tr>
           </thead>
           <tbody>
-            {table.getRowModel().rows.map((row, i) => (
-              <>
-                <tr
-                  key={row.id}
-                  onClick={() => handleRowClick(row.id, row.original.name)}
-                  className={`${
-                    i % 2 === 0 ? 'bg-gray-50' : 'bg-white'
-                  } hover:bg-emerald-100 transition-colors duration-200 cursor-pointer`}
-                >
-                  {row.getVisibleCells().map((cell) => (
-                    <td key={cell.id} className="border px-2 py-2 text-center">
-                      {flexRender(cell.column.columnDef.cell, cell.getContext())}
-                    </td>
-                  ))}
-                </tr>
-                {expandedRow.id === row.id && expandedRow.details && (
-                  <tr className="bg-emerald-50">
-                    <td colSpan={13} className="border px-4 py-4 text-left">
-                      <div className="text-sm leading-6">
-                        <strong>Birthplace:</strong> {expandedRow.details.birthPlace} <br />
-                        <strong>Interview Quote:</strong> "{expandedRow.details.interview}"
-                      </div>
-                    </td>
+            {table.getRowModel().rows.map((row, i) => {
+              if (row.getIsGrouped()) {
+                const groupValue = row.getValue(row.groupingColumnId!);
+                const isExpanded = expandedGroups[row.id] || false;
+                return (
+                  <>
+                    <tr
+                      key={row.id}
+                      className="bg-teal-200 hover:bg-teal-300 transition-colors duration-200 cursor-pointer"
+                      onClick={() => toggleGroup(row.id)}
+                    >
+                      <td colSpan={table.getHeaderGroups()[0].headers.length} className="px-4 py-2 font-semibold">
+                        {row.groupingColumnId === 'teams' ? `Team: ${groupValue}` : `Role: ${groupValue}`} ({row.subRows.length} players)
+                        {isExpanded ? ' ▼' : ' ►'}
+                      </td>
+                    </tr>
+                    {isExpanded &&
+                      row.subRows.map((subRow, subIndex) => (
+                        <>
+                          <tr
+                            key={subRow.id}
+                            onClick={() => handleRowClick(subRow.id, subRow.original.name)}
+                            className={`${subIndex % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-emerald-100 transition-colors duration-200 cursor-pointer`}
+                          >
+                            {subRow.getVisibleCells().map((cell) => (
+                              <td key={cell.id} className="px-2 py-2 text-center">
+                                {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                              </td>
+                            ))}
+                          </tr>
+                          {expandedRow.id === subRow.id && expandedRow.details && (
+                            <tr className="bg-emerald-50">
+                              <td colSpan={13} className="px-4 py-4 text-left">
+                                <div className="text-sm leading-6">
+                                  <strong>Birthplace:</strong> {expandedRow.details.birthPlace} <br />
+                                  <strong>Interview Quote:</strong> "{expandedRow.details.interview}"
+                                </div>
+                              </td>
+                            </tr>
+                          )}
+                        </>
+                      ))}
+                  </>
+                );
+              }
+              return (
+                <>
+                  <tr
+                    key={row.id}
+                    onClick={() => handleRowClick(row.id, row.original.name)}
+                    className={`${i % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-emerald-100 transition-colors duration-200 cursor-pointer`}
+                  >
+                    {row.getVisibleCells().map((cell) => (
+                      <td key={cell.id} className="px-2 py-2 text-center">
+                        {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                      </td>
+                    ))}
                   </tr>
-                )}
-              </>
-            ))}
+                  {expandedRow.id === row.id && expandedRow.details && (
+                    <tr className="bg-emerald-50">
+                      <td colSpan={13} className="px-4 py-4 text-left">
+                        <div className="text-sm leading-6">
+                          <strong>Birthplace:</strong> {expandedRow.details.birthPlace} <br />
+                          <strong>Interview Quote:</strong> "{expandedRow.details.interview}"
+                        </div>
+                      </td>
+                    </tr>
+                  )}
+                </>
+              );
+            })}
           </tbody>
         </table>
       </div>
@@ -419,7 +509,7 @@ const Table = () => {
         <button
           onClick={() => table.previousPage()}
           disabled={!table.getCanPreviousPage()}
-          className="px-3 py-1 border border-gray-300 rounded bg-gradient-to-r from-teal-600 to-emerald-700 text-white hover:bg-emerald-100 transition-colors duration-200 "
+          className="px-3 py-1 border border-gray-300 rounded bg-gradient-to-r from-teal-600 to-emerald-700 text-white hover:bg-emerald-100 transition-colors duration-200"
         >
           Previous
         </button>

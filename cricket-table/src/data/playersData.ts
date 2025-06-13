@@ -1,11 +1,11 @@
 export const players = [
- {
+  {
     name: 'Sachin Tendulkar',
     birthdate: '1973-04-24',
     runs: { T20: 10, ODI: 18426, Test: 15921 },
     matches: { T20: 1, ODI: 463, Test: 200 },
     role: 'Batsman',
-    teams: ['India', 'Mumbai Indians']
+    teams: ['India'],
   },
   {
     name: 'Muttiah Muralitharan',
@@ -13,7 +13,7 @@ export const players = [
     runs: { T20: 5, ODI: 674, Test: 1261 },
     matches: { T20: 12, ODI: 350, Test: 133 },
     role: 'Bowler',
-    teams: ['Sri Lanka']
+    teams: ['Sri Lanka'],
   },
   {
     name: 'Jacques Kallis',
@@ -21,7 +21,7 @@ export const players = [
     runs: { T20: 666, ODI: 11579, Test: 13289 },
     matches: { T20: 25, ODI: 328, Test: 166 },
     role: 'All-rounder',
-    teams: ['South Africa']
+    teams: ['South Africa'],
   },
   {
     name: 'Ricky Ponting',
@@ -29,7 +29,7 @@ export const players = [
     runs: { T20: 401, ODI: 13704, Test: 13378 },
     matches: { T20: 17, ODI: 375, Test: 168 },
     role: 'Batsman',
-    teams: ['Australia']
+    teams: ['Australia'],
   },
   {
     name: 'Brian Lara',
@@ -37,7 +37,7 @@ export const players = [
     runs: { T20: 0, ODI: 10405, Test: 11953 },
     matches: { T20: 0, ODI: 299, Test: 131 },
     role: 'Batsman',
-    teams: ['West Indies']
+    teams: ['West Indies'],
   },
   {
     name: 'Virat Kohli',
@@ -45,7 +45,7 @@ export const players = [
     runs: { T20: 4008, ODI: 13848, Test: 8848 },
     matches: { T20: 115, ODI: 292, Test: 113 },
     role: 'Batsman',
-    teams: ['India', 'Royal Challengers Bangalore']
+    teams: ['India'],
   },
   {
     name: 'AB de Villiers',
@@ -53,7 +53,7 @@ export const players = [
     runs: { T20: 1672, ODI: 9577, Test: 8765 },
     matches: { T20: 78, ODI: 228, Test: 114 },
     role: 'Batsman',
-    teams: ['South Africa', 'Royal Challengers Bangalore']
+    teams: ['South Africa'],
   },
   {
     name: 'MS Dhoni',
@@ -61,7 +61,7 @@ export const players = [
     runs: { T20: 1617, ODI: 10773, Test: 4876 },
     matches: { T20: 98, ODI: 350, Test: 90 },
     role: 'Wicketkeeper',
-    teams: ['India', 'Chennai Super Kings']
+    teams: ['India'],
   },
   {
     name: 'Shane Warne',
@@ -69,7 +69,7 @@ export const players = [
     runs: { T20: 85, ODI: 1018, Test: 3154 },
     matches: { T20: 55, ODI: 194, Test: 145 },
     role: 'Bowler',
-    teams: ['Australia', 'Rajasthan Royals']
+    teams: ['Australia'],
   },
   {
     name: 'Wasim Akram',
@@ -77,7 +77,7 @@ export const players = [
     runs: { T20: 0, ODI: 3717, Test: 2898 },
     matches: { T20: 0, ODI: 356, Test: 104 },
     role: 'Bowler',
-    teams: ['Pakistan']
+    teams: ['Pakistan'],
   },
   {
     name: 'Rahul Dravid',
@@ -85,7 +85,7 @@ export const players = [
     runs: { T20: 31, ODI: 10889, Test: 13288 },
     matches: { T20: 1, ODI: 344, Test: 164 },
     role: 'Batsman',
-    teams: ['India']
+    teams: ['India'],
   },
   {
     name: 'Kumar Sangakkara',
@@ -93,7 +93,7 @@ export const players = [
     runs: { T20: 1382, ODI: 14234, Test: 12400 },
     matches: { T20: 56, ODI: 404, Test: 134 },
     role: 'Wicketkeeper',
-    teams: ['Sri Lanka']
+    teams: ['Sri Lanka'],
   },
   {
     name: 'Glenn McGrath',
@@ -101,7 +101,7 @@ export const players = [
     runs: { T20: 5, ODI: 115, Test: 641 },
     matches: { T20: 2, ODI: 250, Test: 124 },
     role: 'Bowler',
-    teams: ['Australia']
+    teams: ['Australia'],
   },
   {
     name: 'Adam Gilchrist',
@@ -109,7 +109,7 @@ export const players = [
     runs: { T20: 272, ODI: 9619, Test: 5570 },
     matches: { T20: 13, ODI: 287, Test: 96 },
     role: 'Wicketkeeper',
-    teams: ['Australia']
+    teams: ['Australia'],
   },
   {
     name: 'Virender Sehwag',
@@ -117,7 +117,7 @@ export const players = [
     runs: { T20: 394, ODI: 8273, Test: 8586 },
     matches: { T20: 19, ODI: 251, Test: 104 },
     role: 'Batsman',
-    teams: ['India']
+    teams: ['India'],
   },
   {
     name: 'Anil Kumble',
@@ -125,7 +125,7 @@ export const players = [
     runs: { T20: 0, ODI: 938, Test: 2506 },
     matches: { T20: 0, ODI: 271, Test: 132 },
     role: 'Bowler',
-    teams: ['India']
+    teams: ['India'],
   },
   {
     name: 'Shaun Pollock',
@@ -133,7 +133,7 @@ export const players = [
     runs: { T20: 86, ODI: 3519, Test: 3781 },
     matches: { T20: 12, ODI: 303, Test: 108 },
     role: 'All-rounder',
-    teams: ['South Africa']
+    teams: ['South Africa'],
   },
   {
     name: 'Sanath Jayasuriya',
@@ -141,7 +141,7 @@ export const players = [
     runs: { T20: 629, ODI: 13430, Test: 6973 },
     matches: { T20: 31, ODI: 445, Test: 110 },
     role: 'All-rounder',
-    teams: ['Sri Lanka']
+    teams: ['Sri Lanka'],
   },
   {
     name: 'Sourav Ganguly',
@@ -149,7 +149,7 @@ export const players = [
     runs: { T20: 172, ODI: 11363, Test: 7212 },
     matches: { T20: 2, ODI: 311, Test: 113 },
     role: 'Batsman',
-    teams: ['India']
+    teams: ['India'],
   },
   {
     name: 'Inzamam-ul-Haq',
@@ -157,7 +157,7 @@ export const players = [
     runs: { T20: 0, ODI: 11739, Test: 8830 },
     matches: { T20: 1, ODI: 378, Test: 120 },
     role: 'Batsman',
-    teams: ['Pakistan']
+    teams: ['Pakistan'],
   },
   {
     name: 'Javed Miandad',
@@ -165,16 +165,15 @@ export const players = [
     runs: { T20: 0, ODI: 7381, Test: 8832 },
     matches: { T20: 0, ODI: 233, Test: 124 },
     role: 'Batsman',
-    teams: ['Pakistan']
+    teams: ['Pakistan'],
   },
-  // Continuing with more players up to 100...
   {
     name: 'Rohit Sharma',
     birthdate: '1987-04-30',
     runs: { T20: 3853, ODI: 10709, Test: 4137 },
     matches: { T20: 148, ODI: 262, Test: 59 },
     role: 'Batsman',
-    teams: ['India', 'Mumbai Indians']
+    teams: ['India'],
   },
   {
     name: 'Jasprit Bumrah',
@@ -182,7 +181,7 @@ export const players = [
     runs: { T20: 8, ODI: 27, Test: 89 },
     matches: { T20: 60, ODI: 89, Test: 33 },
     role: 'Bowler',
-    teams: ['India', 'Mumbai Indians']
+    teams: ['India'],
   },
   {
     name: 'Kane Williamson',
@@ -190,7 +189,7 @@ export const players = [
     runs: { T20: 2464, ODI: 6554, Test: 8124 },
     matches: { T20: 87, ODI: 161, Test: 96 },
     role: 'Batsman',
-    teams: ['New Zealand']
+    teams: ['New Zealand'],
   },
   {
     name: 'Joe Root',
@@ -198,7 +197,7 @@ export const players = [
     runs: { T20: 893, ODI: 6522, Test: 11416 },
     matches: { T20: 32, ODI: 158, Test: 137 },
     role: 'Batsman',
-    teams: ['England']
+    teams: ['England'],
   },
   {
     name: 'Steve Smith',
@@ -206,7 +205,7 @@ export const players = [
     runs: { T20: 1009, ODI: 5410, Test: 9514 },
     matches: { T20: 63, ODI: 142, Test: 102 },
     role: 'Batsman',
-    teams: ['Australia']
+    teams: ['Australia'],
   },
   {
     name: 'David Warner',
@@ -214,7 +213,7 @@ export const players = [
     runs: { T20: 2894, ODI: 6030, Test: 8786 },
     matches: { T20: 99, ODI: 161, Test: 112 },
     role: 'Batsman',
-    teams: ['Australia', 'Sunrisers Hyderabad']
+    teams: ['Australia'],
   },
   {
     name: 'Babar Azam',
@@ -222,7 +221,7 @@ export const players = [
     runs: { T20: 3485, ODI: 5359, Test: 3772 },
     matches: { T20: 104, ODI: 117, Test: 49 },
     role: 'Batsman',
-    teams: ['Pakistan']
+    teams: ['Pakistan'],
   },
   {
     name: 'Ben Stokes',
@@ -230,7 +229,7 @@ export const players = [
     runs: { T20: 585, ODI: 2924, Test: 6028 },
     matches: { T20: 43, ODI: 105, Test: 97 },
     role: 'All-rounder',
-    teams: ['England']
+    teams: ['England'],
   },
   {
     name: 'Trent Boult',
@@ -238,7 +237,209 @@ export const players = [
     runs: { T20: 42, ODI: 178, Test: 317 },
     matches: { T20: 55, ODI: 109, Test: 78 },
     role: 'Bowler',
-    teams: ['New Zealand']
+    teams: ['New Zealand'],
+  },
+
+
+  {
+    name: 'David Khan',
+    birthdate: '1966-03-21',
+    runs: { T20: 2901, ODI: 14595, Test: 7110 },
+    matches: { T20: 104, ODI: 63, Test: 87 },
+    role: 'Wicketkeeper',
+    teams: ['Sri Lanka'],
+  },
+  {
+    name: 'Andre Patel',
+    birthdate: '1983-04-05',
+    runs: { T20: 1403, ODI: 4177, Test: 10745 },
+    matches: { T20: 53, ODI: 199, Test: 53 },
+    role: 'Bowler',
+    teams: ['England'],
+  },
+  {
+    name: 'Chris Russell',
+    birthdate: '1996-06-08',
+    runs: { T20: 2499, ODI: 3004, Test: 3344 },
+    matches: { T20: 82, ODI: 214, Test: 144 },
+    role: 'Bowler',
+    teams: ['Bangladesh'],
+  },
+  {
+    name: 'Amit Lee',
+    birthdate: '1989-07-10',
+    runs: { T20: 3042, ODI: 8763, Test: 5142 },
+    matches: { T20: 130, ODI: 268, Test: 87 },
+    role: 'All-rounder',
+    teams: ['India'],
+  },
+  {
+    name: 'Tom Smith',
+    birthdate: '1978-01-18',
+    runs: { T20: 1899, ODI: 11234, Test: 8532 },
+    matches: { T20: 73, ODI: 221, Test: 132 },
+    role: 'Batsman',
+    teams: ['New Zealand'],
+  },
+  {
+    name: 'Mohammad Brown',
+    birthdate: '1986-12-03',
+    runs: { T20: 1505, ODI: 6233, Test: 4241 },
+    matches: { T20: 56, ODI: 178, Test: 91 },
+    role: 'All-rounder',
+    teams: ['Pakistan'],
+  },
+  {
+    name: 'John Clark',
+    birthdate: '1975-06-14',
+    runs: { T20: 207, ODI: 5128, Test: 10302 },
+    matches: { T20: 12, ODI: 190, Test: 165 },
+    role: 'Batsman',
+    teams: ['Australia'],
+  },
+  {
+    name: 'Lee Russell',
+    birthdate: '1991-10-25',
+    runs: { T20: 1422, ODI: 7891, Test: 7643 },
+    matches: { T20: 67, ODI: 209, Test: 120 },
+    role: 'All-rounder',
+    teams: ['South Africa'],
+  },
+  {
+    name: 'Suresh Khan',
+    birthdate: '1982-08-11',
+    runs: { T20: 2335, ODI: 7033, Test: 5003 },
+    matches: { T20: 78, ODI: 195, Test: 89 },
+    role: 'Batsman',
+    teams: ['India'],
+  },
+  {
+    name: 'Mark Singh',
+    birthdate: '1985-04-28',
+    runs: { T20: 1098, ODI: 6432, Test: 6899 },
+    matches: { T20: 66, ODI: 186, Test: 107 },
+    role: 'Wicketkeeper',
+    teams: ['West Indies'],
+  },
+  {
+    name: 'John Ahmed',
+    birthdate: '1990-01-09',
+    runs: { T20: 2813, ODI: 7892, Test: 4343 },
+    matches: { T20: 102, ODI: 231, Test: 94 },
+    role: 'Bowler',
+    teams: ['Pakistan'],
+  },
+  {
+    name: 'Amit Clark',
+    birthdate: '1977-05-06',
+    runs: { T20: 1333, ODI: 9321, Test: 7184 },
+    matches: { T20: 44, ODI: 198, Test: 115 },
+    role: 'All-rounder',
+    teams: ['Bangladesh'],
+  },
+  {
+    name: 'Chris Ahmed',
+    birthdate: '1992-11-15',
+    runs: { T20: 1671, ODI: 4592, Test: 5032 },
+    matches: { T20: 60, ODI: 151, Test: 102 },
+    role: 'Batsman',
+    teams: ['Afghanistan'],
+  },
+  {
+    name: 'Mark Lee',
+    birthdate: '1987-09-09',
+    runs: { T20: 1111, ODI: 4901, Test: 6244 },
+    matches: { T20: 45, ODI: 182, Test: 97 },
+    role: 'Wicketkeeper',
+    teams: ['England'],
+  },
+  {
+    name: 'David Russell',
+    birthdate: '1980-02-27',
+    runs: { T20: 1233, ODI: 3899, Test: 4421 },
+    matches: { T20: 52, ODI: 140, Test: 103 },
+    role: 'Bowler',
+    teams: ['New Zealand'],
+  },
+  {
+    name: 'Tom Singh',
+    birthdate: '1973-07-19',
+    runs: { T20: 455, ODI: 8121, Test: 11234 },
+    matches: { T20: 18, ODI: 230, Test: 144 },
+    role: 'Batsman',
+    teams: ['Sri Lanka'],
+  },
+  {
+    name: 'Suresh Patel',
+    birthdate: '1984-10-12',
+    runs: { T20: 1699, ODI: 5001, Test: 7210 },
+    matches: { T20: 70, ODI: 189, Test: 98 },
+    role: 'All-rounder',
+    teams: ['India'],
+  },
+  {
+    name: 'Lee Sharma',
+    birthdate: '1993-03-23',
+    runs: { T20: 2091, ODI: 3400, Test: 5678 },
+    matches: { T20: 66, ODI: 142, Test: 89 },
+    role: 'Batsman',
+    teams: ['Pakistan'],
+  },
+  {
+    name: 'Andre Ahmed',
+    birthdate: '1979-11-07',
+    runs: { T20: 1855, ODI: 7240, Test: 7655 },
+    matches: { T20: 48, ODI: 200, Test: 121 },
+    role: 'Bowler',
+    teams: ['West Indies'],
+  },
+  {
+    name: 'John Khan',
+    birthdate: '1995-08-31',
+    runs: { T20: 1888, ODI: 3321, Test: 4833 },
+    matches: { T20: 77, ODI: 170, Test: 96 },
+    role: 'All-rounder',
+    teams: ['Afghanistan'],
+  },
+  {
+    name: 'Mohammad Clark',
+    birthdate: '1972-02-02',
+    runs: { T20: 33, ODI: 11211, Test: 9912 },
+    matches: { T20: 4, ODI: 231, Test: 148 },
+    role: 'Batsman',
+    teams: ['Australia'],
+  },
+  {
+    name: 'Tom Brown',
+    birthdate: '1988-06-17',
+    runs: { T20: 1330, ODI: 2981, Test: 4733 },
+    matches: { T20: 63, ODI: 109, Test: 91 },
+    role: 'Wicketkeeper',
+    teams: ['South Africa'],
+  },
+  {
+    name: 'Mark Khan',
+    birthdate: '1981-01-29',
+    runs: { T20: 2202, ODI: 8033, Test: 7521 },
+    matches: { T20: 84, ODI: 205, Test: 122 },
+    role: 'Batsman',
+    teams: ['England'],
+  },
+  {
+    name: 'Amit Singh',
+    birthdate: '1994-04-14',
+    runs: { T20: 1456, ODI: 5230, Test: 6022 },
+    matches: { T20: 65, ODI: 187, Test: 104 },
+    role: 'All-rounder',
+    teams: ['India'],
+  },
+  {
+    name: 'David Ahmed',
+    birthdate: '1983-09-05',
+    runs: { T20: 2321, ODI: 6789, Test: 7888 },
+    matches: { T20: 89, ODI: 190, Test: 106 },
+    role: 'Wicketkeeper',
+    teams: ['New Zealand'],
   },
 ];
 
@@ -374,3 +575,4 @@ export const playerExtras = [
     interview: 'Universe Boss is here to entertain.',
   },
 ];
+
